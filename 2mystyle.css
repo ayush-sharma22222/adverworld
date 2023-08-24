@@ -1,0 +1,269 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+
+}
+html, body{
+width: 100%;
+height: 100%;
+}
+body{
+    background-image: url(website\ bg\ img.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+
+
+}
+h1{
+  font-size: 3vw;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  border-bottom:3px solid white;
+}
+span{
+  color: orange;
+}
+.client form{
+position: relative;
+width: 100vw;
+
+}
+form{
+  padding: 80px;
+}
+.name{
+  display: flex;
+  justify-content: center;
+}
+#inputname{
+  padding: 10px;
+  border-radius: 5px;
+  border-style: none;
+  height: 70px;
+  width: 30vw;
+  background-color: rgba(245, 245, 245, 0.642);
+margin: 5px;
+font-size: 20px;
+
+}
+.no{
+  display: flex;
+  justify-content: center;
+}
+#inputno{
+  padding: 10px;
+  border-radius: 5px;
+  border-style: none;
+  height: 70px;
+  width: 30vw;
+  background-color: rgba(245, 245, 245, 0.642);
+margin: 5px;
+font-size: 20px;
+
+}
+.city{
+  display: flex;
+  justify-content: center;
+}
+#inputcity{
+  padding: 10px;
+  border-radius: 5px;
+  border-style: none;
+  height: 70px;
+  width: 30vw;
+  background-color: rgba(245, 245, 245, 0.642);
+margin: 5px;
+font-size: 20px;
+
+}
+.email{
+  display: flex;
+  justify-content: center;
+}
+#inputemail{
+  padding: 10px;
+  border-radius: 5px;
+  border-style: none;
+  height: 70px;
+  width: 30vw;
+  background-color: rgba(245, 245, 245, 0.642);
+margin: 5px;
+font-size: 20px;
+
+}
+.budget{
+  display: flex;
+  justify-content: center;
+}
+#inputbudget{
+  padding: 10px;
+  border-radius: 5px;
+  border-style: none;
+  height: 70px;
+  width: 30vw;
+  background-color: rgba(245, 245, 245, 0.642);
+margin: 5px;
+font-size: 20px;
+
+}
+.msg{
+  display: flex;
+  justify-content: center;
+}
+#msg{
+  padding: 10px;
+  border-radius: 5px;
+  border-style: none;
+  height: 200px;
+  width: 30vw;
+  background-color: rgba(245, 245, 245, 0.642);
+margin: 5px;
+font-size: 20px;
+
+}
+  #submit{
+    height: 70px;
+    width: 60%;
+    font-size: 20px;
+    
+    text-align: center;
+    display: block;
+    background-color: #ffa500;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-left: 20%;
+   margin-right: 20%;
+   animation-name: press;
+   animation-duration: 2s;
+   animation-iteration-count: infinite;
+   border-style: none;
+  }
+  
+
+  @keyframes press{
+    0% {background-color: #e3ee06;}
+    50% {background-color: #00ffff;}
+    100% {background-color: #ffcc00;}
+   }
+   @media (max-width:780px) {
+
+    *{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+
+}
+html, body{
+width: 100%;
+height: 100%;
+}
+
+h1{
+  font-size: 5vw;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  border-bottom:3px solid white;
+}
+
+.client form{
+position: relative;
+width: 100vw;
+
+}
+form{
+  padding: 50px;
+}
+.name{
+  display: flex;
+  justify-content: center;
+}
+#inputname{
+  padding: 7px;
+  border-radius: 5px;
+  border-style: none;
+  height: 50px;
+  width: 70vw;
+  background-color: rgba(245, 245, 245, 0.642);
+margin: 5px;
+font-size: 20px;
+
+}
+.no{
+  display: flex;
+  justify-content: center;
+}
+#inputno{
+  padding: 7px;
+  border-radius: 5px;
+  border-style: none;
+  height: 50px;
+  width: 70vw;
+  background-color: rgba(245, 245, 245, 0.642);
+margin: 5px;
+font-size: 20px;
+
+}
+.city{
+  display: flex;
+  justify-content: center;
+}
+#inputcity{
+  padding: 7px;
+  border-radius: 5px;
+  border-style: none;
+  height: 50px;
+  width: 70vw;
+  background-color: rgba(245, 245, 245, 0.642);
+margin: 5px;
+font-size: 20px;
+
+}
+.email{
+  display: flex;
+  justify-content: center;
+}
+#inputemail{
+  padding: 7px;
+  border-radius: 5px;
+  border-style: none;
+  height: 50px;
+  width: 70vw;
+  background-color: rgba(245, 245, 245, 0.642);
+margin: 5px;
+font-size: 20px;
+
+}
+.budget{
+  display: flex;
+  justify-content: center;
+}
+#inputbudget{
+  padding: 7px;
+  border-radius: 5px;
+  border-style: none;
+  height: 50px;
+  width: 70vw;
+  background-color: rgba(245, 245, 245, 0.642);
+margin: 5px;
+font-size: 20px;
+
+}
+.msg{
+  display: flex;
+  justify-content: center;
+}
+#msg{
+  padding: 7px;
+  border-radius: 5px;
+  border-style: none;
+  height: 100px;
+  width: 70vw;
+  background-color: rgba(245, 245, 245, 0.642);
+margin: 5px;
+font-size: 20px;
+
+}
+   }
